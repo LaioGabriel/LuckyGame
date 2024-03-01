@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="screen1" class="">
+            <h1>
+                Qual é a sua sorte de hoje?
+            </h1>
+            <p>
+                Abra o biscoito e descubra
+            </p>
+       
+            <button id="initial_button">
+                <img id="cookie" src="./imgs/fortune-cookie.png" alt="">
+            </button>
+        </div>
+       <div id="screen2" class="hide">
+            <h1>
+                Aqui está a sua sorte de hoje:
+            </h1>
+
+        <div id="card">
+            <h2 id="newPhrase" class="txt">
+                
+            </h2>
+        </div>
+        <img src="./imgs/opened-cookie.png" alt="" id="opened-cookie">
+            <button onclick="window.location.reload()" id="reset">
+            Abra outro biscoito
+            </button>
+       </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
